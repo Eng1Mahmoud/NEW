@@ -7,4 +7,4 @@ app.get('/', (req, res)=>{
 res.send("hello world");
 })
 
-app.length(PORT,()=>console.log( `app listening on port ${PORT}`))
+app.listen(PORT,()=>console.log( `app listening on port ${PORT}`))
